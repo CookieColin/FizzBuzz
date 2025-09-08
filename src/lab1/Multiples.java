@@ -41,4 +41,10 @@ public class Multiples {
         return fiveCount + threeCount - doubleCounted;
     }
 
+    static int multiples() {
+        int n = 999;
+
+        return Math.floorDiv(n, 3) + Math.floorDiv(n, 5) - Math.floorDiv(n, 15);
+    }
+
 }
